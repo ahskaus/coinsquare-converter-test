@@ -44,4 +44,6 @@ open /dist/index.html in browser
 ## Known issues
 
 
-Only tested in Google Chrome (Mac). Due to flakiness of flexbox, it may not render properly on other browsers without further refinement.
+1. Only tested in Google Chrome (Mac). Due to flakiness of flexbox, it may not render properly on other browsers without further refinement.
+
+2. The loader may appear for a long time. It is not a bug, the api response can sometimes be slooooooow.
