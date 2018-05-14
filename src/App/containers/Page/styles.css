@@ -1,0 +1,16 @@
+
+
+.page-container {
+	width: 350px;
+	height: 560px;
+	margin: auto;
+	margin-top: 50px;
+	background-color: #F2F2F2;
+}
+
+.page-container > .not-loaded {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

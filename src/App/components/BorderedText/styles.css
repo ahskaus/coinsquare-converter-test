@@ -1,0 +1,23 @@
+
+
+.bordered-text-component {
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.bordered-text-component .text {
+	margin-left: 7%;
+}
+
+.bordered-text-component .text-caps {
+	text-transform: capitalize;
+}
+
+.bordered-text-component .text-camel {
+	text-transform: capitalize;
+}
+

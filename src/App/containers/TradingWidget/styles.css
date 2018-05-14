@@ -1,0 +1,22 @@
+
+
+.trading-widget-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 4% 12% 15% 12%;
+}
+
+.trading-widget-container > .label {
+	flex: 1;
+}
+
+.trading-widget-container > .button {
+	flex: 2;
+}
+
+.trading-widget-container > .box {
+	flex: 1;
+	padding: 5%;
+}

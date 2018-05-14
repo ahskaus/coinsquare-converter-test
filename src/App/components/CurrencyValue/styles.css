@@ -1,0 +1,17 @@
+
+
+.currency-value-component {
+	display: flex;
+	align-items: stretch;
+}
+
+.currency-value-component .name {
+	text-transform: uppercase;
+	text-align: right;
+	padding-right: 5%;
+	flex: 1;
+}
+
+.currency-value-component .value {
+	flex: 3;
+}

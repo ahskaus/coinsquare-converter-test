@@ -1,0 +1,23 @@
+
+
+.label-component {
+	height: 100%;
+}
+
+.label-component .align-top {
+	display: flex;
+	height: 100%;
+}
+
+.label-component .align-bottom {
+	display: flex;
+	height: 100%;
+	justify-content: flex-end;
+	flex-direction: column;	
+}
+
+.label-component .label {
+	text-transform: capitalize;
+	font-size: 0.9em;
+	margin-left: 7%;
+}
